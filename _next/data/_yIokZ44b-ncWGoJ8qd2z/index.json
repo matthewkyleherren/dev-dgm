@@ -35,10 +35,10 @@
                 }
               ],
               "background_image": {
-                "dimensions": { "width": 3987, "height": 2500 },
+                "dimensions": { "width": 2600, "height": 1558 },
                 "alt": null,
                 "copyright": null,
-                "url": "https://images.prismic.io/pebble-website/652aef70fbd9a45bcec8164f_background3.jpg?auto=format,compress",
+                "url": "https://www.d-g-m.com/assets/imgs/dgm-hero-desktop.webp",
                 "id": "ZSrvcPvZpFvOyBZP",
                 "edit": {
                   "x": 0,
@@ -48,10 +48,10 @@
                 }
               },
               "background_image_mobile": {
-                "dimensions": { "width": 2544, "height": 4600 },
+                "dimensions": { "width": 1930, "height": 2913 },
                 "alt": null,
                 "copyright": null,
-                "url": "https://images.prismic.io/pebble-website/652e9c7bfbd9a45bcec817d5_pebblevertical.jpg?auto=format,compress",
+                "url": "https://www.d-g-m.com/assets/imgs/dgm-hero-mobile.webp",
                 "id": "ZS6ce_vZpFvOyBfV",
                 "edit": {
                   "x": 0,
@@ -153,19 +153,19 @@
               "content": [
                 {
                   "type": "paragraph",
-                  "text": "It’s electric. It’s smart.",
+                  "text": "We are DGM.",
                   "spans": [],
                   "direction": "ltr"
                 },
                 {
                   "type": "paragraph",
-                  "text": "And you control it with",
+                  "text": "We power the kitchens",
                   "spans": [],
                   "direction": "ltr"
                 },
                 {
                   "type": "paragraph",
-                  "text": "just a touch. ",
+                  "text": "of our favourite restaurants. ",
                   "spans": [],
                   "direction": "ltr"
                 }
@@ -173,19 +173,19 @@
               "second_content": [
                 {
                   "type": "paragraph",
-                  "text": "So you can",
+                  "text": "Because they, and you,",
                   "spans": [],
                   "direction": "ltr"
                 },
                 {
                   "type": "paragraph",
-                  "text": "feel at home,",
+                  "text": " have enough on your plates,",
                   "spans": [],
                   "direction": "ltr"
                 },
                 {
                   "type": "paragraph",
-                  "text": "anywhere.",
+                  "text": "already.",
                   "spans": [],
                   "direction": "ltr"
                 }
