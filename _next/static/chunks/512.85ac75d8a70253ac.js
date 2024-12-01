@@ -1829,12 +1829,12 @@
                         (0, n.jsx)("div", {
                           ref: L,
                           className:
-                            "absolute left-0 top-0 w-full h-full z-3 pointer-events-none",
+                            "absolute left-0 top-0 w-full h-full z-3 pointer-events-none hidden nodisplay",
                           children:
                             r.primary.middle_image.url &&
                             (0, n.jsx)("div", {
                               className:
-                                "absolute left-0 top-0 w-full h-full z-3 pointer-events-none",
+                                "absolute left-0 top-0 w-full h-full z-3 pointer-events-none hidden nodisplay",
                               children: F
                                 ? (0, n.jsx)(N.Z, {
                                     loading: "eager",
@@ -1843,7 +1843,7 @@
                                     fallbackAlt: "",
                                     field: r.primary.middle_image_mobile,
                                     className:
-                                      "w-full h-full object-cover object-[80%_center] xl:object-center",
+                                      "w-full h-full object-cover object-[80%_center] xl:object-center hidden nodisplay",
                                   })
                                 : (0, n.jsx)(N.Z, {
                                     loading: "eager",
@@ -1852,7 +1852,7 @@
                                     fallbackAlt: "",
                                     field: r.primary.middle_image,
                                     className:
-                                      "w-full h-full object-cover object-[80%_center] xl:object-center",
+                                      "w-full h-full object-cover object-[80%_center] xl:object-center hidden nodisplay",
                                   }),
                             }),
                         }),

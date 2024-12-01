@@ -507,8 +507,8 @@
                             src="/assets/imgs/652e9c7bfbd9a45bcec817d5_pebblevertical%EF%B9%96auto=format,compress&amp;fit=max&amp;w=3840.jpg" />
                         </div>
                       </div>
-                      <div class="absolute left-0 top-0 w-full h-full z-3 pointer-events-none">
-                        <div class="absolute left-0 top-0 w-full h-full z-3 pointer-events-none"></div>
+                      <div class="absolute left-0 top-0 w-full h-full z-3 pointer-events-none hidden nodisplay">
+                        <div class="absolute left-0 top-0 w-full h-full z-3 pointer-events-none hidden nodisplay"></div>
                       </div>
                       <div
                         class="absolute px-container top-container w-full grid grid-cols-6 lg:grid-cols-12 mt-[6rem] xl:mt-0 z-2">
@@ -556,7 +556,7 @@
                             <div class="fixed top-0 left-0 w-full h-full pointer-events-none bg-light_beige opacity-0">
                             </div>
                             <div class="absolute bottom-0 right-0 w-full h-full bg-white "></div>
-                            <div class="absolute bottom-0 right-0 w-full h-full bg-white  overflow-hidden">
+                            <div class="absolute bottom-0 right-0 w-full h-full bg-white  overflow-hidden hidden nodisplay">
                               <div class="absolute bottom-0 right-0 w-full h-full bg-white p-[0.2rem] overflow-hidden">
                                 <div class="relative w-full h-full overflow-hidden">
                                   <video loop="" muted="" playsinline="" autoplay=""
@@ -3732,6 +3732,10 @@
         }
 
         .nodisplay {
+          display: none;
+        }
+
+        #__next > div:nth-child(4) > div > div.home > div.transition-path.relative > section > div.relative.bg-light_beige.z-1 > div > div.absolute.left-0.top-0.w-full.h-full.z-3.pointer-events-none {
           display: none;
         }
       </style>
