@@ -17340,13 +17340,7 @@
                         ref: o,
                         onMouseEnter: () => tr(!0),
                         onMouseLeave: () => tr(!1),
-                        className:
-                          "header-logo relative pointer-events-auto overflow-hidden transition-bg duration-global ease-out opacity-0 ".concat(
-                            tt
-                              ? "bg-light_beige h-[5.2rem] lg:h-[6.2rem] ml-[0.2rem] mt-[0.2rem] w-[5.2rem] lg:w-[6.2rem]"
-                              : "bg-white h-[5.6rem] lg:h-[6.6rem] w-[5.6rem] lg:w-[6.6rem]",
-                            " ",
-                          ),
+                        className: "icon-wrapper",
                         children: (0, s.jsx)(I.Z, {
                           href: "/",
                           className:
